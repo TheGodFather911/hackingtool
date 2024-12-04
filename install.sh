@@ -42,7 +42,7 @@ echo "  ███    ███     ███    ███ ███    ███
 echo "  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ ";
 echo "                                         ▀                                                                            ▀         ";
 
-echo -e "${BLUE}                                    https://github.com/Z4nzu/hackingtool ${NC}"
+echo -e "${BLUE}                                    https://github.com/TheGodFather911/hackingtool ${NC}"
 echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e "${CYAN}              Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
@@ -92,7 +92,7 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
         fi
         echo "";
         echo -e "${YELLOW}[✔] Downloading hackingtool...${NC}"
-        if sudo git clone https://github.com/Z4nzu/hackingtool.git $install_dir; then
+        if sudo git clone https://github.com/TheGodFather911/hackingtool.git $install_dir; then
             # Install virtual environment
             echo -e "${YELLOW}[*] Installing Virtual Environment...${NC}"
             if [[ $choice == 1 ]]; then
